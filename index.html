@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="header-text">
+        <p>Web & App Development</p>
+        <h1> Hi, I'm <span>Ramya</span><b> From Puducherry</h1>
+        <h4>I can create modern websites, business applications, 
+            and custom software solutions with clean design and high performance.</h4>
+    </div>
+    <a href="Ramya resume.pdf" download class="btn btn2">Download CV</a>
+    </div>
+ </div> 
+ <!----------------------------about------------------------------------------> 
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="bg image .png.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>I am Ramya, a Web & App Developer,I have knowledge of HTML, CSS, JavaScript, Java, Python, React.js, MySQL, and Android App Development. My goal is to build innovative web and mobile applications that help businesses and individuals establish a strong online presence.
+
+I am always eager to learn new technologies, improve my skills, and deliver high-quality solutions with creativity and professionalism.</p>
+                
+
+                
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Certification')">Certification</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing attractive, user-friendly, and responsive interfaces.</li>
+                            <li><span>Web Development</span><br>Building responsive and modern websites using HTML, CSS, JavaScript, and React.js.</li>
+                            <li><span>App Development</span><br>Developing Android applications with clean UI and efficient performance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certification">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Simplilearn SkillUp</li>
+                            <li><span>JavaScript Certification</span><br>Udemy</li>
+                            <li><span>Connecting to a MongoDB Database</span><br>MongoDB</li>
+                            <li><span>Java Full Stack Certification</span><br>Wipro TalentNext</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-2026</span><br>B.Tech-Computer Science and Engineering from Sri Venkateshwaraa College of Engineering and Technology </li>
+                            <li><span>2022</span><br>12th from Mutharaiyar Higher Secondary School</li>
+                            <li><span>2020</span><br>12th from Mutharaiyar Higher Secondary School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-----------Services------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Build responsive, fast, and user-friendly websites using HTML, CSS, JavaScript, React.js, and modern web technologies to create engaging digital experiences.</p>
+            
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+        
+            <h2>App Design</h2>
+            <p> Develop Android applications with intuitive user interfaces, smooth performance, and reliable functionality tailored to user needs and business goals.</p>
+            
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/Ux Design</h2>
+            <p> Develop Android applications with intuitive user interfaces, smooth performance, and reliable functionality tailored to user needs and business goals.</p>
+            
+          </div>      
+        </div>
+    </div>
+ </div>
+<!----------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> MyWork</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="WEB APPLICATION.jpg" alt="app">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Designed and developed a responsive personal portfolio website to showcase my skills, certifications, projects, and professional profile.
+
+Technologies: HTML, CSS, JavaScript </p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="mobile-application-development-.webp" alt="">
+                <div class="layer">
+                    <h3>Touchless Navigation Using Hand Gestures</h3>
+                    <p>Type: AI-Based Desktop Application
+Domain: Artificial Intelligence & Computer Vision
+
+Description:
+Developed a computer vision-based application that allows users to control PPT slides and media functions using hand gestures without physical contact.
+
+Technologies: Python, OpenCV, MediaPipe, PyAutoGUI </p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="app.avif" alt="">
+                <div class="layer">
+                    <h3>SpyCam Detection Smart App</h3>
+                    <p> Type: Android Mobile Application
+Domain: Mobile App Development & Security
+
+Description:
+Developed a smart mobile application to help users detect hidden cameras and improve privacy using smartphone-based detection techniques. </p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+
+                <p><i class="fa-solid fa-at"></i>ramyasivaraman042005@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>9677583552</p>
+                
+            
+            
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="140b4511-5d7b-40e4-843a-cf1a4e72dbb8">
+                    <input type="text" name="Name" placeholder="Your Name" class="Contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="Contact-inputs" required>
+                    <textarea name="Message" placeholder="Type Message" class="Contact-inputs" required> 
+                    </textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+ </script>
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+</body>
+</html>
